@@ -1,0 +1,15 @@
+<div class='borer-bottom row'style="margin_bottom:16px">
+    <div class="col-9">
+        <h3>Name:{{product['name']}}<br></h3>
+        <div>
+            {% if 'type' in product %}
+            <br>Type:{{product['type']}}<br>
+            {% endif %}
+            <br>Price:{{product['Price']}}
+        </div>
+        </br>
+    </div>
+    <div class='col-3'>
+    <button type="button" class="btn btn-outline-primary">Buy</button>
+    </div>
+</div>
